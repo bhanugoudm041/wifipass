@@ -3,7 +3,8 @@
 A small wifi penetration testing tool-kit
 
 #Installation
-1.pip3 install -r requirements.txt
+1. pip3 install -r requirements.txt
+
 Clone the repository using below command
 2. git clone https://github.com/bhanugoudm041/wifipass.git
 
