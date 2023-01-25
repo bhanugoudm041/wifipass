@@ -18,7 +18,7 @@ def viewnetworks():
 			if inTerFacE <= lenList and inTerFacE != 0:
 				inTERFACE=intErface[inTerFacE-1]
 				def run_commnd(inTERFACE):
-					subprocess.run(["xterm","-e","echo Please close this window once you notedown BSSID and CHANNEL;sudo airodump-ng "+ inTERFACE])
+					subprocess.run(["xterm","-e","sudo airodump-ng "+ inTERFACE])
 					subprocess.run(["clear"])
 				run_commnd(inTERFACE)
 			elif inTerFacE == lenList+1 and inTerFacE != 0:

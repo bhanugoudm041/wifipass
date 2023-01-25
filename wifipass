@@ -1,3 +1,15 @@
 #!/bin/bash
 
-python3 main.py
+get_id=$(id -u)
+if [[ $get_id == 0 ]]
+then
+	echo "I use it for Educational Purpose (y/Y/yes/YES)";read terms_choosed
+	if [[ $terms_choosed == "y" || $terms_choosed == "Y" ||  $terms_choosed == "yes" || $terms_choosed == "YES" ]]
+	then
+		python3 main.py
+	else
+		echo "Bye...!If you want to use the program please accept terms & conditions"
+	fi
+else
+	echo "Please run the script as Root or SUDO.......!!Bye"
+fi
