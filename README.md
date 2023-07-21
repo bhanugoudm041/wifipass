@@ -10,7 +10,7 @@ A small wifi penetration testing tool-kit
 
 #Installation
 #3. run install.sh script;
-chmod +x install.sh
+chmod +x install.sh;
 sudo ./install.sh
 
 #Usage
