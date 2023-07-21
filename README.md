@@ -9,7 +9,7 @@ A small wifi penetration testing tool-kit
 #2.  cd wifipass
 
 #Installation
-#3. run install.sh script
+#3. run install.sh script;
 chmod +x install.sh
 sudo ./install.sh
 
